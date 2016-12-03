@@ -1,8 +1,8 @@
-package players
+package player
 
 import akka.actor.{Actor, ActorRef}
 import district.DistrictActor.{AddPlayer, RemovePlayer}
-import players.PlayerActor.{Location, Move}
+import player.PlayerActor.{Location, Move}
 
 object PlayerActor {
 

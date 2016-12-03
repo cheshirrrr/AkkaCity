@@ -2,12 +2,12 @@ import akka.actor.{ActorSystem, Props}
 import akka.testkit.{ImplicitSender, TestActorRef, TestKit}
 import district.DistrictActor
 import district.DistrictActor._
-import items.Item
+import item.Item
 import org.scalatest.WordSpecLike
 import org.scalatest.Matchers
 import org.scalatest.BeforeAndAfterAll
-import players.PlayerActor
-import players.PlayerActor.Move
+import player.PlayerActor
+import player.PlayerActor.Move
 
 class AkkaCitySpec() extends TestKit(ActorSystem("AkkaCitySpec")) with ImplicitSender
   with WordSpecLike with Matchers with BeforeAndAfterAll {

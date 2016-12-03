@@ -3,7 +3,7 @@ package district
 
 import akka.actor.{Actor, ActorRef}
 import district.DistrictActor._
-import items.Item
+import item.Item
 
 import scala.collection.mutable.ListBuffer
 
